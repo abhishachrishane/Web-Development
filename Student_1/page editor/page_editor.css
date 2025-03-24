@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+div {
+    text-align: center;
+}
+
+div.link {
+    padding-bottom: 30px;
+}
+
+div.page_editor_heading {
+    background-color: #74C69D;
+    padding-bottom: 5px;
+}
+
+div.page_editor_detail {
+    border: 2px solid black;
+    padding: 10px 0;
+    margin: 12px 0;
+}
+
+div.topic_and_data {
+    background-color: #74C69D;
+}
+
+div.link a {
+    font-weight: 600;
+    color: #1B4332;
+}
+
+div.topic_and_data h4, div.topic_and_data p {
+    padding: 10px 0;
+}
+
+.profile-image {
+    width: 200px; /* Adjust the size as needed */
+    height: 200px; /* Adjust the size as needed */
+    border-radius: 0%; /* Makes the image circular */
+    margin-right: 10px; /* Space between image and text */
+    vertical-align: middle; /* Aligns image with text */
+}
