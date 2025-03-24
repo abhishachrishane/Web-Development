@@ -1,0 +1,87 @@
+h1 {
+  background-color: #90a574; 
+  color: #fff; 
+  padding: 10px 0;  
+  text-align: center;
+  margin-top: 60px;
+  margin: 0;
+  font-size: 30px; 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+} 
+
+body {
+  background-image: url('AdobeStock_274777402.jpeg'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  margin: 0;
+}
+
+.back_to_top {
+  background-color: #7DBA84;
+  margin: 30px;
+  width: 150px;
+  height: 50px;
+  padding: 15px;
+  text-align: center;
+}
+
+.back_to_top a {
+  color: black;
+}
+
+.content_section {
+  background-color: #7DBA84;
+  display: flex;
+  justify-content: space-between;
+  padding: 65px 40px;
+  margin: 0px 20px 20px 20px;
+  border-radius: 6px;
+}
+
+.one {
+  background-color: transparent;
+}
+
+.text {
+  text-align: center;
+}
+
+.text h2 {
+  padding-bottom: 3px;
+}
+
+.content_section img {
+  max-height: 250px;
+  border-radius: 6px;
+}
+
+nav {
+  background-color: #2b8141;
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+.content_section .text {
+  text-align: center;
+  margin-right: 20px; 
+}
